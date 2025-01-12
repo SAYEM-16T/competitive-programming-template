@@ -1,0 +1,35 @@
+ll n;
+cin >> n;
+vector<ll> aa(n);
+for (int i = 0; i < n; i++)
+    aa[i] = i + 1;
+// for (auto u : aa)
+//     cout << u << " ";
+// cout << endl;
+
+do
+{
+    bool ind = 1;
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = i + 1; j < n; j++)
+        {
+            ll sum = 0;
+            for (int k = i; k <= j; k++)
+                sum += aa[k];
+            if (sum % (j - i + 1) == 0)
+            {
+                ind = 0;
+                break;
+            }
+        }
+        if (ind == 0)
+            break;
+    }
+    if (ind == 1)
+    {
+        for (auto u : aa)
+            cout << u << " ";
+        cout << endl;
+    }
+} while (next_permutation(aa.begin(), aa.end()));
