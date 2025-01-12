@@ -1,0 +1,53 @@
+/// DSU === Disjoint Set Union ,, freind analogy
+#define MX 100
+ll parent[MX];
+bool flag = 0;
+
+void makeSet(ll u)
+{
+    // initialization code gose here
+    parent[u] = u;
+}
+
+void init()
+{
+    for (int i = 1; i <= 8; i++)
+    {
+        makeSet(i);
+        // parent[i] = i;
+    }
+}
+
+// ll Find_root(ll u) // its a linear equation
+// {
+//     if (u == parent[u])
+//         return u;
+//     return Find_root(parent[u]); /// when parent == chield ,, this recursion is termineted
+// }
+
+ll Find_root(ll u) /// optimization == >> when return function is back than all elements of parents are initiallized
+{             //// Optimization is called path comprasion
+//    if(flag == 1)
+//     cout << "calling with  ==>>  " << u << endl;
+//     return parent[x] == x ? x : parent[x] = find_root(parent[x]);
+    if (u == parent[u])
+        return u;
+    return parent[u] = Find_root(parent[u]); /// when parent == chield ,, this recursion is termineted
+}
+
+void Union(ll u, ll v) /// friend of friend is my friend      /// in dsu :: every element is not connnect to each other ,, they are connect to ,, parent _ child relation
+{
+    ll root_u = Find_root(u);
+    ll root_v = Find_root(v);
+    if (root_u != root_v)
+        parent[root_v] = root_u; /// after this line p is chaid of Q ,, or ,, q is parent of p
+}
+
+bool IsFriend(ll u, ll v)
+{
+    ll root_u = Find_root(u);
+    ll root_v = Find_root(v);
+    return (root_u == root_v);
+}
+
+/// DSU
