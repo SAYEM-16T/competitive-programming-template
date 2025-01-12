@@ -1,0 +1,18 @@
+string bitset_to_string(bitset<100> aa)
+{
+    string ss;
+    ll start , i;
+    for(i = 100 ; i >= 0 ; i--)
+    {
+        if(aa[i] == 1)
+        {
+            start = i;
+            break;
+        }
+    }
+    for(i = start ; i >= 0 ; i--)
+    {
+        ss.push_back(aa[i] + '0');
+    }
+    return ss;
+}
