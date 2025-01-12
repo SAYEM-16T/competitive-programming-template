@@ -1,0 +1,47 @@
+/// out side
+ll n, m;
+vector<ll> adj[N], vis(N);
+ll dis[N], par[N];
+
+/// in side 0.1
+cin >> n >> m;
+for (int i = 0; i < m; i++)
+{
+    cin >> a >> b;
+    adj[a].push_back(b);
+    adj[b].push_back(a);
+}
+queue<int> q;
+q.push(1);
+vis[1] = true;
+dis[1] = 0;
+while (!q.empty())
+{
+    int u = q.front();
+    q.pop();
+    for (auto v : adj[u])
+    {
+        if (!vis[v])
+        {
+            q.push(v);
+            par[v] = u;
+            dis[v] = dis[u] + 1;
+            vis[v] = true;
+        }
+    }
+}
+/// in side 0.2
+for (int i = 1; i <= n; i++)
+{
+    cout << dis[i] << ' ';
+}
+cout << '\n';
+/// inside 0.3
+int v = 4;
+while (v != 1)
+{
+    cout << v << ' ';
+    v = par[v];
+}
+cout << 1 << '\n';
+/// inside end game
