@@ -1,0 +1,33 @@
+vector<ll> prime_fact[1000123], rep(1000123, 1); // be careful -> amader prime fact ber kortea bolbea upto 1e7 
+vector<ll> spf(1e6 + 123, 0);                    //            -> but amader prime fact ber kora lagbea upto 2e5 time max
+void prime_fact_nlogn()                          //            -> so better holo jetar bolbea otar primefact tokhon ber kora
+{                                                //            -> CC dea etar jonno TLE khichilam
+    for (int i = 0; i <= 1e6; i++)
+    {
+        spf[i] = i;
+        rep[i] = i;
+    }
+    for (int i = 2; i <= 1e6; i++)
+    {
+        if (spf[i] == i)
+        {
+            for (int j = i; j <= 1e6; j += i)
+            {
+                spf[j] = min((ll)spf[j], (ll)i);
+            }
+        }
+    }
+    /// SPf done
+    for (int i = 2; i <= 1e6; i++)
+    {
+        ll spff = spf[i];
+        for (int j = i; j <= 1e6; j += i)
+        {
+            if (rep[j] % spff == 0)
+            {
+                rep[j] /= spff;
+                prime_fact[j].push_back(spff);
+            }
+        }
+    }
+}
