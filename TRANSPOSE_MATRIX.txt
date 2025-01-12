@@ -1,0 +1,27 @@
+    ll r, c;
+    cin >> r >> c;
+    vector<vector<ll>> aa;
+    vector<ll> ini(c);
+    for (int i = 0; i < r; i++)
+    {
+        for (int j = 0; j < c; j++)
+        {
+            cin >> ini[j];
+        }
+        aa.push_back(ini);
+    }
+    // for (auto u : aa)
+    // {
+    //     for (auto v : u)
+    //         cout << v << " ";
+    //     cout << endl;
+    // }
+
+    ll transpose[c][r];
+    for (int i = 0; i < r; i++)
+    {
+        for (int j = 0; j < c; j++)
+        {
+            transpose[j][i] = aa[i][j];
+        }
+    }
