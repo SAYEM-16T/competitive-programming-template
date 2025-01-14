@@ -4,7 +4,7 @@ ll qexp(ll a, ll b, ll m) // complixity O(log b) == a ^ b
     while (b)
     {
         if (b % 2)
-            res = res * a % m;
+            res = res * a % m; // get TLE for (__int128_t)res * a % m; => 300964982
         a = a * a % m;
         b /= 2;
     }
