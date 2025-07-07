@@ -22,7 +22,6 @@ This template is made for competitive programming using `C++` language.
  <a href="https://icpc.global/private/person/854884/ICPCID"><img src="https://iili.io/HTsBUfS.png" alt="ICPC Global" width="6%"/></a>&emsp; 
 <!--  <a href="https://www.codingame.com/profile/e5e56c7585fda3b457056b85180a4d636850344" ><img src="https://tcourreges.github.io/images/codersstrikeback/codingamelogo.png" alt="Codingame" width="20%"/></a> -->
 </p>
-
 <br>
 
 ### Contest templates
