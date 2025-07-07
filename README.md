@@ -15,9 +15,9 @@ This template is made for competitive programming using `C++` language.
 ---
 
 <p align="center">
-  <a href="https://codeforces.com/profile/7oSkaaa"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png" alt="Code Forces" width="6%"/></a>&emsp; 
- <a href="https://leetcode.com/7oSkaa/"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="LeetCode" width="6%"/></a>&emsp; 
- <a href="https://atcoder.jp/users/ahmed_7oSkaa"><img src="https://iili.io/HTsq4wv.png" alt="AtCoder" width="6%"/></a>&emsp; 
+  <a href="https://codeforces.com/profile/SAYEM_19"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png" alt="Code Forces" width="6%"/></a>&emsp; 
+<!--  <a href="https://leetcode.com/7oSkaa/"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png" alt="LeetCode" width="6%"/></a>&emsp;  -->
+ <a href="https://atcoder.jp/users/SAYEM_16"><img src="https://iili.io/HTsq4wv.png" alt="AtCoder" width="6%"/></a>&emsp; 
  <a href="https://www.codechef.com/users/ahmed_7oskaa"><img src="https://img.icons8.com/color/50/000000/codechef.png" alt="Code Chef" width="6%"/></a>&emsp; 
  <a href="https://icpc.global/ICPCID/IW0X0CTD0ZV9"><img src="https://iili.io/HTsBUfS.png" alt="ICPC Global" width="6%"/></a>&emsp; 
  <a href="https://www.codingame.com/profile/e5e56c7585fda3b457056b85180a4d636850344" ><img src="https://tcourreges.github.io/images/codersstrikeback/codingamelogo.png" alt="Codingame" width="20%"/></a>
