@@ -28,7 +28,7 @@ This template is made for competitive programming using `C++` language.
 
 ---
 
-- [My template C++](https://github.com/SAYEM-16T/competitive-programming-template/blob/main/Template/CF.cpp)&nbsp;<a href='Template.cpp'><img src="https://img.icons8.com/color/48/000000/downloads.png" width="20px"/></a>
+- [My template C++](https://github.com/SAYEM-16T/competitive-programming-template/blob/main/Template/CF.cpp)&nbsp;<a href='Template.cpp'></a>
 <!--  - [Google template C++](https://github.com/7oSkaaa/CP-Templates/blob/main/Google_Template.cpp)&nbsp;<a href='Google_Template.cpp'><img src="https://img.icons8.com/color/48/000000/downloads.png" width="20px"/></a>  -->
 
 <br>
