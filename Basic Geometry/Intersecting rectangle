@@ -13,3 +13,6 @@ vector<ll> inter_rec(vector<ll> ua , vector<ll> ub){// ua = {lower_left_x ,lower
 		return ret;
 	}
 }
+
+preoblem => https://codeforces.com/problemset/problem/1028/C 
+sol.     => https://codeforces.com/contest/1028/submission/327933200
