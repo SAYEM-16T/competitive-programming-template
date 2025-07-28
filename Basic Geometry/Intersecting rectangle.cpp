@@ -2,6 +2,8 @@
 /*
 preoblem => https://codeforces.com/problemset/problem/1028/C 
 sol.     => https://codeforces.com/contest/1028/submission/327933200
+preoblem => https://codeforces.com/problemset/problem/1216/C 
+sol.     => https://codeforces.com/contest/1216/submission/331324717
 */
 vector<ll> inter_rec(vector<ll> ua , vector<ll> ub){// ua = {lower_left_x ,lower_left_y ,upper_right_x ,upper_right_y};
 	vector<ll> ret = ua;
